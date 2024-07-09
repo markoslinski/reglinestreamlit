@@ -7,8 +7,8 @@ st.title("Previsão Inicial de Custo para Franquia")
 
 dados = pd.read_csv("slr12.csv", sep=";")
 
-X = dados[['FrqAnual']]
-y = dados['CusInic']
+X = dados[['FrqAnual']] # Variável independente, dataframe
+y = dados['CusInic'] # Variável dependente, série
 
 modelo = LinearRegression().fit(X,y)
 
