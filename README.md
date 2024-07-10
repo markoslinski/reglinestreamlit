@@ -28,3 +28,8 @@ No formulário vamos ter um controle onde o usuário insere o valor, O valor da 
 - Pandas
 - Scikit-Learn
 - Matplotlib
+
+### Uso:
+python -m streamlit run .\reglin.py
+
+![image](img.png)
